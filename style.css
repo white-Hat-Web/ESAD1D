@@ -1,0 +1,265 @@
+body {
+    
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #737573;
+}
+
+.section-content {
+  padding: 40px;
+  max-width: 1000px;
+   margin: 0 auto;
+}
+
+img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(126, 124, 124, 0.5);
+  height: auto;
+  display: block;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #5f5264;
+  color:#101010;
+  cursor: pointer;
+ 
+}
+
+button:hover {
+  background-color: #534747;
+  background-color: #42194d9b;
+}
+
+.highlight-photo {
+  position: relative;
+  width: 60%;
+  max-width: 200px;
+  margin: 20px auto;
+  border-radius: 90px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgb(138, 136, 139);
+  
+}
+
+.highlight-photo img {
+  width: 100%;
+  display: block;
+  transition: transform 0.8s ease;
+}
+
+.highlight-photo:hover img {
+  transform: scale(1.25);
+}
+
+.CaptionAchievement {
+  background: rgba(47, 46, 46, 0.6);
+  color: rgb(214, 210, 210)!important;
+padding: 15px;
+}
+.CaptionGmail {
+  background: rgba(43, 42, 42, 0.6);
+   color: rgba(0, 255, 13, 0.8)!important;
+padding: 15px;
+}
+
+
+.section-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+.gallery {
+  position: relative;
+  width: 60%;
+  max-width: 170px;
+  margin: 20px auto;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(106, 105, 105, 0.85);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+}
+
+/* Hover effect */
+.gallery:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgb(58, 55, 55);
+}
+
+/* Optional: add a subtle border */
+.gallery::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  pointer-events: none;
+}
+
+
+.gallery img {
+  width: 100%;
+  display: block;
+  transition: transform 0.8s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .gallery-item {
+    width: 150px;
+  height: 200px;
+  border-radius: 48%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.985);
+  transition: transform 4s ease;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+
+#home h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 4rem;
+  color: #fff;
+  background: linear-gradient(90deg, #332d2d, #78596a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-img {
+position: relative;
+  width: 60%;
+  max-width: 200px;
+  margin: 20px auto;
+  border-radius: 90px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgb(69, 58, 74);
+
+}
+.about-img img {
+   width: 100%;
+  display: block;
+  transition: transform 0.8s ease;
+}
+.about-img:hover img {
+  transform: scale(1.25);
+}
+
+
+
+
+
+#achievements .text {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #bbb4b4;
+  }
+  #achievements {
+  padding: 100px;
+    text-align: center;
+  }
+  #achievements h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+#hobbies .text {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #3b3a3a;
+  }
+  #hobbies {
+    padding: 100px;
+    text-align: center;
+  }
+
+  #hobbies h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .gallery-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item img:hover {
+    transform: scale(1.05);
+  }
+
+  .back-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .back-button:hover {
+    background-color: #666;
+  }
+.Caption-ILoveArt{
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+
+

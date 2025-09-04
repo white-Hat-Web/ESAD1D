@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HP -->
+  <section id="home" class="section-content">
+    <h1>E-Portfolio</h1>
+    <div class="highlight-photo">
+  <img src="images/oki.jpg" alt="Highlight Photo">
+</div>
+    <button onclick="showAbout()">About Me</button>
+    <button onclick="showAchievements()">Achievements</button>
+    <button onclick="showContact()">Contact</button>
+    <button onclick="showHobbies()">Hobbies</button>
+  </section>
+
+  <!--all buttons-->
+<section id="about" class="section-content" style="display:none;">
+   <div class="about-img">
+      <img src="images/face3.jpg" alt="My Photo">
+      </div>
+         <p>Hi! I'm Jose Miguel Angelo Constatino Española—but you can call me Boss. I'm a third-year college student taking BTVTED, majoring in Computer Programming.
+
+My goal is to become an ICT teacher and a positive role model for the next generation. I love coding—even when it takes me an hour to find out the error was just a missing >!
+
+If you’ve read this far, you’ve earned the right to call me Migg¥..</p>
+     <button onclick="showHome()">Back</button>
+</section>
+
+<section id="achievements" class="section-content" style="display:none;">
+    <h1>Achievements📜</h1>
+        <div class="gallery">
+        <img src="images/aa.jpg" alt="Achievement 1">
+    <img src="images/oo.jpg" alt="Achievement 2">
+        </div>
+       <p class="CaptionAchievement">I became a CDT 3rd Class in ROTC and received a CERTIFICATE during my first year of college.</p>
+    </div>
+        <button onclick="showHome()">Back</button>
+</section>
+
+<section id="contact" class="section-content" style="display:none;">
+  <p class="CaptionGmail">🖂⫶ josemiguelangelo.espanola@students.isatu.edu.ph</p>
+  </div>
+     <button onclick="showHome()">Back</button>
+</section>
+
+<section id="hobbies" class="section-content" style="display:none;">
+  <h1>I Love Arts♥</h1>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="images/art1.jpg" alt="Artwork 1">
+    </div>
+    <div class="gallery-item">
+      <img src="images/art2.jpg" alt="Artwork 2">
+    </div>
+  </div>
+   <button onclick="showHome()">Back</button>
+</section>
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
